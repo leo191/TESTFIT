@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/lah"
+    android:gravity="center"
+    android:background="@drawable/front2"
+   >
+    <TextView
+        android:id="@+id/log_tv"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:text="Login"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:paddingRight="32dp"
+        android:paddingLeft="32dp"
+
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/log_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="Log In with facebook"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/facebook"
+            android:background="@color/facebook_blue"
+            android:layout_height="48dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="48dp"
+        android:id="@+id/lincred"
+        android:paddingRight="32dp"
+        android:layout_below="@id/linearLayout"
+        android:paddingLeft="32dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextLabel">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:id="@+id/email"/>
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            android:theme="@style/TextLabel">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:id="@+id/password"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/login"
+        android:paddingRight="32dp"
+        android:paddingLeft="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:id="@+id/login_main"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_centerHorizontal="true"
+            android:background="#bdbdbd"
+            android:gravity="center"
+            android:text="Log In with facebook"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+
+            android:layout_marginBottom="200dp"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/forgotpd"
+        android:layout_marginBottom="20dp"
+        android:gravity="end"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:text="Forgot Password?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>

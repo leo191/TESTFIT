@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TESTFIT</string>
+    <string name="create_acc">Create an account and start your journey</string>
+    <string name="register_textButt">
+        Register With Facebook <font color="red">Nothing Shared without your permission</font>
+    </string>
+    <string name="terms"></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

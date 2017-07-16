@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#241e1e</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="theme_black">#212121</color>
+    <color name="facebook_blue">#3B5998</color>
+    <color name="start_color">#f42424</color>
+    <color name="transp">#88676767</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+</resources>
